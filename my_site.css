@@ -280,3 +280,18 @@ footer{
     color: #FAFAFA;
     text-align: center;
 }
+
+@media screen and (max-width:767px){
+    
+    .container{
+        width: 90%;
+    }
+    
+    header{
+        height:50px;
+    }
+    
+    .logo{
+        height: 50px;
+    }
+}
