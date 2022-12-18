@@ -222,7 +222,6 @@ nav{
 
 .right-content{
     width: 50%;
-    text-align: left;
 }
 
 .description-title{
@@ -236,6 +235,11 @@ nav{
 
 .description-text{
     font-size: 16px;
+}
+
+.link-text{
+    text-decoration: underline;
+    color: #212121;
 }
 
 .contact-group{
@@ -254,4 +258,25 @@ nav{
 .right-contact-content{
     width: 50%;
     margin: 0 auto;
+}
+
+.fa{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.fa:last-child{
+    margin: 0;
+}
+
+footer{
+    height: 60px;
+    background-color: #EC715F;
+    line-height: 60px;
+}
+
+.copyright{
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
 }
