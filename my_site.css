@@ -160,9 +160,6 @@ nav{
     background-position: center;
 }
 
-#strength .container{
-    width: 100%;
-}
 
 .strength-group{
     width: 980px;
@@ -350,5 +347,19 @@ footer{
     
     .bg-5{
         display: none;
+    }
+    
+    .strength-group{
+        width: 320px;
+        flex-flow: row wrap;
+    }
+    
+    .strength{
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    
+    .strength:first-child{
+        margin-top: 0px;
     }
 }
