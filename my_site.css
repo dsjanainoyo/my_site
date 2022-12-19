@@ -20,7 +20,6 @@ header{
 }
 
 header .container{
-    width: 1024px;
     display: flex;
     justify-content: space-between;
 }
@@ -281,7 +280,7 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     
     .container{
         width: 90%;
@@ -293,5 +292,31 @@ footer{
     
     .logo{
         height: 50px;
+    }
+    
+    .menu-box{
+        width: 40px;
+        height: 40px;
+        border: 1px solid #FAFAFA;
+        margin-right: 5%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: auto;
+    }
+    
+    .list-bar{
+        width: 25px;
+        height: 2px;
+        background-color: #FAFAFA;
+        margin: 5px auto;
+        display: block;
+    }
+    
+    .list-bar:first-child{
+        margin-top: 10px;
+    }
+    
+    .nav-list{
+        display: none;
     }
 }
