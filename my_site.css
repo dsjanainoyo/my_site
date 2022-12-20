@@ -190,13 +190,11 @@ nav{
     text-align: left;
 }
 
-#profile .container{
+#profile{
     background-color: #ECEFF1;
-    width: 100%;
 }
 
 .profile-group{
-    width: 1024px;
     padding-top: 30px;
     padding-bottom: 90px;
     display: flex;
@@ -361,5 +359,22 @@ footer{
     
     .strength:first-child{
         margin-top: 0px;
+    }
+    
+    .profile-group{
+        flex-flow: row wrap;
+        text-align: center;
+    }
+    
+    .profile-group .left-content{
+        margin-bottom: 20px;
+    }
+    
+    .left-content{
+        width: 100%;
+    }
+    
+    .right-content{
+        width: 100%;
     }
 }
